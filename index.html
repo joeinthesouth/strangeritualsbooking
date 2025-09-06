@@ -1,127 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Strange Rituals Booking</title>
-  <style>
-    body {
-      background-color: #fdf6e3;
-      font-family: "Courier New", Courier, monospace;
-      color: #222;
-      margin: 0;
-      padding: 0;
-    }
-
-    .logo {
-      text-align: center;
-      margin-top: 20px;
-    }
-
-    .logo img {
-      max-width: 200px;
-      height: auto;
-      border: 2px solid #000;
-      padding: 5px;
-      background-color: #fff;
-    }
-
-    header {
-      background-color: #000;
-      color: #fff;
-      padding: 1em;
-      text-align: center;
-      letter-spacing: 2px;
-      font-size: 1.5em;
-    }
-
-    .content {
-      padding: 2em;
-      max-width: 900px;
-      margin: auto;
-    }
-
-    h2 {
-      border-bottom: 2px dashed #000;
-      padding-bottom: 0.3em;
-      margin-top: 2em;
-    }
-
-    .artist {
-      margin: 1em 0;
-      padding: 1em;
-      background-color: #fff;
-      border: 1px solid #000;
-    }
-
-    .artist:hover {
-      background-color: #f0f0f0;
-    }
-
-    footer {
-      text-align: center;
-      font-size: 0.9em;
-      padding: 2em;
-      color: #666;
-    }
-
-    a {
-      color: #000;
-      text-decoration: underline;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css" />
+  <meta name="description"
+    content="Strange Rituals Booking – Shows, tours, and artists with heart. Contact and legal information." />
+  <link rel="icon" href="images/logo.jpg" type="image/jpeg" />
 </head>
-<body>
 
+<body>
   <div class="logo">
-    <img src="logo.jpg" alt="Stranger Rituals Logo" />
+    <a href="index.html">
+      <img src="images/logo.jpg" alt="Stranger Rituals Logo" />
+    </a>
   </div>
 
   <header>
-    STRANGE RITUALS BOOKING
+    <h1>STRANGE RITUALS BOOKING</h1>
   </header>
 
-  <div class="content">
-    <p><em>Shows & tours with our hearts in it.</em></p>
+  <main>
+    <section class="intro">
+      <p><em>Shows & tours with heart.</em></p>
+    </section>
+    <section>
+      <h2>Roster</h2>
+      <div class="artist-list">
+        <article class="artist">
+          <h3>Apollo Ghosts (CA)</h3>
+          <a href="https://apolloghosts.bandcamp.com" target="_blank" rel="noopener noreferrer">Bandcamp</a>
+        </article>
+        <article class="artist">
+          <h3>Catastrophe Waitress (DE)</h3>
+          <a href="https://catastrophewaitress.bandcamp.com" target="_blank" rel="noopener noreferrer">Bandcamp</a>
+        </article>
+        <article class="artist">
+          <h3>Lambs & Wolves (DE)</h3>
+          <a href="https://lambsandwolves.bandcamp.com" target="_blank" rel="noopener noreferrer">Bandcamp</a>
+        </article>
+        <article class="artist">
+          <h3>St. Moon (DE/FR)</h3>
+          <a href="https://stmoon.bandcamp.com" target="_blank" rel="noopener noreferrer">Bandcamp</a>
+        </article>
+      </div>
+    </section>
 
-    <h2>Artists & friends</h2>
+    <section>
+      <h2>Regional Promotion</h2>
+      <ul>
+        <li>Coming soon...</li>
+      </ul>
+    </section>
 
-    <div class="artist">
-      <strong>Apollo Ghosts (CA)</strong><br />
-      <a href="https://apolloghosts.bandcamp.com" target="_blank">Bandcamp</a>
-    </div>
+    <section>
+      <h2>Upcoming Shows</h2>
+      <ul>
+        <li><strong>September 10, 2025 – Freiburg (DE)</strong>: Ryan Davis & the Roadhouse Band @ Poolbar</li>
+        <li><strong>September 11, 2025 – Esslingen (DE)</strong>: Ryan Davis & the Roadhouse Band @ Dieselstrasse</li>
+        <li><strong>September 12, 2025 – Karlsruhe (DE)</strong>: Ryan Davis & the Roadhouse Band @ Cafe Nun</li>
+        <li><strong>October 4, 2025 – Esslingen (DE)</strong>: Jake Xerxes Fussell with Lambs & Wolves @ Cafe Nun</li>
+      </ul>
+    </section>
 
-    <div class="artist">
-      <strong>Catastrophe Waitress (DE)</strong><br />
-      <a href="https://catastrophewaitress.bandcamp.com" target="_blank">Bandcamp</a>
-    </div>
+    <section>
+      <h2>Past Shows</h2>
+      <ul>
+        <li>Coming soon...</li>
+      </ul>
+    </section>
 
-    <div class="artist">
-      <strong>Lambs & Wolves (DE)</strong><br />
-      <a href="https://lambsandwolves.bandcamp.com" target="_blank">Bandcamp</a>
-    </div>
+    <section>
+      <h2>Contact</h2>
+      <p>Write us: <a href="mailto:contact@strangeritualsbooking.com">contact@strangeritualsbooking.com</a></p>
+    </section>
 
-    <div class="artist">
-      <strong>St. Moon (DE/FR)</strong><br />
-      <a href="https://stmoon.bandcamp.com" target="_blank">Bandcamp</a>
-    </div>
-
-    <h2>Live</h2>
-    <ul>
-      <li><strong>Sep 10, 2025 – Freiburg (DE)</strong>: Ryan Davis & the Roadhouse Band @ Poolbar</li>
-      <li><strong>Sep 11, 2025 – Esslingen (DE)</strong>: Ryan Davis & the Roadhouse Band @ Dieselstrasse</li>
-      <li><strong>Sep 12, 2025 – Karlsruhe (DE)</strong>: Ryan Davis & the Roadhouse Band @ Cafe Nun</li>
-      <li><strong>Oct 04, 2025 – Esslingen (DE)</strong>: Jake Xerxes Fusselll with Lambs & Wolves @ Cafe Nun</li>
-
-
-    </ul>
-
-    <h2>Contact</h2>
-      Reach out: <strong> contact [at] strangeritualsbooking [dot] com</strong>
-  </div>
+  </main>
 
   <footer>
-    &copy; 2025 Stranger Rituals Booking<br />
+    <p>&copy; 2025 Stranger Rituals Booking</p>
+    <p>
+      <a href="impressum.html" style="color: white;">Legal Notice</a> |
+      <a href="privacy_policy.html" style="color: white;">Privacy Policy</a>
+    </p>
   </footer>
 
 </body>
+
 </html>
