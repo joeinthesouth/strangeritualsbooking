@@ -154,10 +154,20 @@ section {
 @media (max-width: 700px) {
     main {
         padding: 1em;
-        max-width: 90vw;
+        max-width: 85vw;
     }
 
     .artist-list {
         grid-template-columns: 1fr;
     }
+
+    .logo img {
+        width: 60vw;
+    }
+
+    h3 {
+        font-size: 1.5em;
+
+    }
+
 }
