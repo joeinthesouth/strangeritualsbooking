@@ -175,3 +175,44 @@ section {
     }
 
 }
+
+
+.regional-promo {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.promo-row {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    width: 100%;
+}
+
+.promo-row.row-1 img,
+.promo-row.row-2 img {
+    height: 55vh;
+    width: auto;
+    object-fit: cover;
+    display: block;
+}
+
+@media (max-width: 700px) {
+    .regional-promo {
+        max-width: 100%;
+        padding: 0 0.5em;
+    }
+
+    .promo-row {
+        flex-wrap: wrap;
+    }
+
+    .promo-row img {
+        width: 20vw;
+        height: auto;
+    }
+}
