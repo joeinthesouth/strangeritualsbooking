@@ -15,7 +15,7 @@
     content="Strange Rituals Booking - shows, tours, and rituals for these cold blooded new times with artists and bands we love - Apollo Ghosts, Flora, EggS, Lambs & Wolves, St. Moon & more" />
   <meta property="og:image" content="https://strangeritualsbooking.com/images/logo.jpg" />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://strangeritualsbooking.com/" />
+  <meta property="og:url" content="https://www.strangeritualsbooking.com/" />
   <link rel="icon" href="images/logo.jpg" type="image/jpeg" />
   <link rel="stylesheet" href="style.css" />
 
@@ -25,7 +25,7 @@
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "Strange Rituals Booking",
-    "url": "https://strangeritualsbooking.com",
+    "url": "https://www.strangeritualsbooking.com",
     "description": "Strange Rituals Booking - shows, tours, and rituals for these cold blooded new times with artists and bands we love - Apollo Ghosts, Flora, EggS, Lambs & Wolves, St. Moon & more",
     "logo": "https://strangeritualsbooking.com/images/logo.jpg",
     "sameAs": [
@@ -45,7 +45,7 @@
     </div>
   </header>
   <main>
-    <h1 style="display:none; padding:0;">Strange Rituals Booking</h1>
+    <h1 class="visually-hidden">Strange Rituals Booking</h1>
     <h4>shows, tours, and rituals for these cold blooded new times with artists and bands we love</h4>
 
 
@@ -65,84 +65,92 @@
       <div class="artist-list">
 
         <article class="artist">
-          <a href="https://apolloghosts.bandcamp.com/" target="_blank" rel="noopener noreferrer">
+          <a data-band="Apollo Ghosts" target="_blank" rel="noopener noreferrer">
             <img src="images/apollo_ghosts.jpg" alt="Apollo Ghosts" class="artist-img" title="Listen on Bandcamp" />
           </a>
-          <h3>Apollo Ghosts <br>(Indie-Rock - CA)</h3>
+          <h3><a class="artist-name-link" data-band="Apollo Ghosts" target="_blank" rel="noopener noreferrer">Apollo
+              Ghosts</a> <br>(Indie-Rock - CA)</h3>
           <p class="artist-territory">Territory: DE</p>
         </article>
 
         <article class="artist">
-          <a href="https://attentionplease.bandcamp.com/track/rack-train-demo" target="_blank"
-            rel="noopener noreferrer">
+          <a data-band="Attention Please" target="_blank" rel="noopener noreferrer">
             <img src="images/attention_please.jpg" alt="Attention Please" class="artist-img"
               title="Listen on Bandcamp" />
           </a>
-          <h3>Attention Please <br>(Indie/Folk - FR)</h3>
+          <h3><a class="artist-name-link" data-band="Attention Please" target="_blank"
+              rel="noopener noreferrer">Attention Please</a> <br>(Indie/Folk - FR)</h3>
           <p class="artist-territory">Territory: DE</p>
         </article>
 
         <article class="artist">
-          <a href="https://catastrophewaitress.bandcamp.com/music" target="_blank" rel="noopener noreferrer">
+          <a data-band="Catastrophe Waitress" target="_blank" rel="noopener noreferrer">
             <img src="images/Catastrophe-Waitress.jpg" alt="Catastrophe Waitress" class="artist-img"
               title="Listen on Bandcamp" />
           </a>
-          <h3>Catastrophe Waitress <br>(Indie/Folk - DE)</h3>
+          <h3><a class="artist-name-link" data-band="Catastrophe Waitress" target="_blank"
+              rel="noopener noreferrer">Catastrophe Waitress</a> <br>(Indie/Folk - DE)</h3>
           <p class="artist-territory">Territory: EU/CH</p>
         </article>
 
 
         <article class="artist">
-          <a href="https://preciousrecordingsoflondon.bandcamp.com/album/prenew-11-the-english-want-coup-dur"
-            target="_blank" rel="noopener noreferrer">
+          <a data-band="Coup Dur" target="_blank" rel="noopener noreferrer">
             <img src="images/Coup_Dur.jpg" alt="Coup Dur" class="artist-img" title="Listen on Bandcamp" />
           </a>
-          <h3>Coup Dur<br>(Twee Twist Pop - BE/FR)</h3>
+          <h3><a class="artist-name-link" data-band="Coup Dur" target="_blank" rel="noopener noreferrer">Coup
+              Dur</a><br>(Twee Twist Pop - BE/FR)</h3>
           <p class="artist-territory">Territory: DE/AT</p>
         </article>
 
 
         <article class="artist">
-          <a href="https://howlinbananarecords.bandcamp.com/album/eggs" target="_blank" rel="noopener noreferrer">
+          <a data-band="EggS" target="_blank" rel="noopener noreferrer">
             <img src="images/EggS.jpg" alt="EggS" class="artist-img" title="Listen on Bandcamp" />
           </a>
-          <h3>EggS <br>(Jangle-Pop - FR) </h3>
+          <h3><a class="artist-name-link" data-band="EggS" target="_blank" rel="noopener noreferrer">EggS</a>
+            <br>(Jangle-Pop - FR)
+          </h3>
           <p class="artist-territory">Territory: DE/CH</p>
         </article>
 
 
         <article class="artist">
-          <a href="https://treibenderteppichrecords.bandcamp.com/album/time-stops" target="_blank"
-            rel="noopener noreferrer">
+          <a data-band="Flora" target="_blank" rel="noopener noreferrer">
             <img src="images/Flora.jpg" alt="Flora" class="artist-img" title="Listen on Bandcamp" />
           </a>
-          <h3>Flora <br>(Indie-Pop - DE)</h3>
+          <h3><a class="artist-name-link" data-band="Flora" target="_blank" rel="noopener noreferrer">Flora</a>
+            <br>(Indie-Pop - DE)
+          </h3>
           <p class="artist-territory">Territory: EU/CH</p>
         </article>
 
 
         <article class="artist">
-          <a href="https://jonmckiel.bandcamp.com/album/hex" target="_blank" rel="noopener noreferrer">
+          <a data-band="Jon McKiel" target="_blank" rel="noopener noreferrer">
             <img src="images/jon_mckiel.jpg" alt="Jon McKiel" class="artist-img" title="Listen on Bandcamp" />
           </a>
-          <h3>Jon McKiel <br> (Experimental Indie-Pop - CA)</h3>
+          <h3><a class="artist-name-link" data-band="Jon McKiel" target="_blank" rel="noopener noreferrer">Jon
+              McKiel</a> <br> (Experimental Indie-Pop - CA)</h3>
           <p class="artist-territory">Territory: EU/CH</p>
         </article>
 
 
         <article class="artist">
-          <a href="https://lambswolves.bandcamp.com/" target="_blank" rel="noopener noreferrer">
+          <a data-band="Lambs & Wolves" target="_blank" rel="noopener noreferrer">
             <img src="images/Lambs_and_Wolves.jpg" alt="Lambs & Wolves" class="artist-img" title="Listen on Bandcamp" />
           </a>
-          <h3>Lambs & Wolves <br>(Indie/Folk - DE)</h3>
+          <h3><a class="artist-name-link" data-band="Lambs & Wolves" target="_blank" rel="noopener noreferrer">Lambs &
+              Wolves</a> <br>(Indie/Folk - DE)</h3>
           <p class="artist-territory">Territory: EU/CH</p>
         </article>
 
         <article class="artist">
-          <a href="https://nedcollette.bandcamp.com/music" target="_blank" rel="noopener noreferrer">
+          <a data-band="Ned Collette" target="_blank" rel="noopener noreferrer">
             <img src="images/Ned_Collette.jpg" alt="Ned Collette" class="artist-img" title="Listen on Bandcamp" />
           </a>
-          <h3>Ned Collette <br>(Folk - AU)</h3>
+          <h3><a class="artist-name-link" data-band="Ned Collette" target="_blank" rel="noopener noreferrer">Ned
+              Collette</a> <br>(Folk - AU)</h3>
           <p class="artist-territory">Territory: DE/CH</p>
         </article>
 
@@ -158,26 +166,30 @@
 
 
         <article class="artist">
-          <a href="https://nickwheeldon.bandcamp.com/" target="_blank" rel="noopener noreferrer">
+          <a data-band="Nick Wheeldon" target="_blank" rel="noopener noreferrer">
             <img src="images/Nick_Wheeldon.jpg" alt="Nick Wheeldon" class="artist-img" title="Listen on Bandcamp" />
           </a>
-          <h3>Nick Wheeldon<br>(Folk/Anti-Folk - FR)</h3>
+          <h3><a class="artist-name-link" data-band="Nick Wheeldon" target="_blank" rel="noopener noreferrer">Nick
+              Wheeldon</a><br>(Folk/Anti-Folk - FR)</h3>
           <p class="artist-territory">Territory: DE</p>
         </article>
 
         <article class="artist">
-          <a href="https://seanpratt.bandcamp.com/" target="_blank" rel="noopener noreferrer">
+          <a data-band="Sean Pratt" target="_blank" rel="noopener noreferrer">
             <img src="images/Sean_Pratt.jpg" alt="Sean Pratt" class="artist-img" title="Listen on Bandcamp" />
           </a>
-          <h3>Sean Pratt<br>(Folk/Country - US)</h3>
+          <h3><a class="artist-name-link" data-band="Sean Pratt" target="_blank" rel="noopener noreferrer">Sean
+              Pratt</a><br>(Folk/Country - US)</h3>
           <p class="artist-territory">Territory: EU/CH</p>
         </article>
 
         <article class="artist">
-          <a href="https://stmoon.bandcamp.com/album/st-moon-ep" target="_blank" rel="noopener noreferrer">
+          <a data-band="St. Moon" target="_blank" rel="noopener noreferrer">
             <img src="images/St_Moon.jpg" alt="St. Moon" class="artist-img" title="Listen on Bandcamp" />
           </a>
-          <h3>St. Moon <br>(Slowcore-Country - DE/FR)</h3>
+          <h3><a class="artist-name-link" data-band="St. Moon" target="_blank" rel="noopener noreferrer">St. Moon</a>
+            <br>(Slowcore-Country - DE/FR)
+          </h3>
           <p class="artist-territory">Territory: EU/CH</p>
         </article>
 
@@ -189,7 +201,7 @@
       <h2>Regional Promotion</h2>
       <div class="regional-promo">
         <div class="promo-row">
-          <!-- <img src="images/2026_srf_poster.jpg" alt="Poster Strange Rituals Festival" class="promo-img" /> -->
+          <img src="images/2026_srf_poster.jpg" alt="Poster Strange Rituals Festival" class="promo-img" />
           <!-- <img src="images/2026_srb_poster_Jon_McKiel.jpg" alt="Poster Jon McKiel" class="promo-img" /> -->
           <img src="images/2025_srb_poster_steve_gunn.jpg" alt="Poster Steve Gunn" class="promo-img" />
           <img src="images/2025_srb_poster_jake_xerxes_fussell.jpg" alt="Poster Jake Xerxes Fussell"
@@ -226,14 +238,10 @@
         <li>05.11.2026 – Attention Please (Strange Rituals Festival Warm-up), Second Hand Records, Stuttgart DE</li>
         <li>06.11.2026 – EggS, Grandhotel Cosmopolis, Augsburg DE</li>
 
-        <!-- <li>06.11.2026 – Strange Rituals Festival, Dieselstrasse, Esslingen DE, Lineup: Flora, Meagre Martin,
+        <li>06.11.2026 – Strange Rituals Festival, Dieselstrasse, Esslingen DE, Lineup: Flora, Meagre Martin,
           Nicholas Krgovich (CA), Sean Pratt (US) + DJ-Sets (DJ Pauki, Flora & Treibender Teppich Records)</li>
         <li>07.11.2026 – Strange Rituals Festival, Dieselstrasse, Esslingen DE, Lineup: Attention Please (FR),
-          Diplomatic Fun, EggS (FR), Locas in Love, Martha Rose (UK)</li> -->
-
-        <li>06.11.2026 – Strange Rituals Festival, Dieselstrasse, Esslingen DE, Lineup: TBA</li>
-        <li>07.11.2026 – Strange Rituals Festival, Dieselstrasse, Esslingen DE, Lineup: TBA</li>
-
+          Diplomatic Fun, EggS (FR), Locas in Love, Martha Rose (UK)</li>
 
         <li>07.11.2026 – Sean Pratt, Cafe Nun, Karlsruhe DE</li>
         <li>08.11.2026 – Sean Pratt, Hiéro, Colmar FR</li>
@@ -335,19 +343,188 @@
 
   <div class="lightbox" id="posterLightbox" aria-hidden="true">
     <button class="lightbox-close" id="lightboxClose" type="button" aria-label="Close preview">&times;</button>
-    <img id="lightboxImage" src="" alt="Poster preview" />
+    <a id="lightboxImageLink" class="lightbox-image-link" target="_blank" rel="noopener noreferrer">
+      <img id="lightboxImage" src="" alt="Poster preview" />
+    </a>
   </div>
 
   <script>
+    const bandLinks = {
+      'Apollo Ghosts': 'https://apolloghosts.bandcamp.com/',
+      'Attention Please': 'https://attentionplease.bandcamp.com/track/rack-train-demo',
+      'Catastrophe Waitress': 'https://catastrophewaitress.bandcamp.com/music',
+      'Coup Dur': 'https://preciousrecordingsoflondon.bandcamp.com/album/prenew-11-the-english-want-coup-dur',
+      'EggS': 'https://howlinbananarecords.bandcamp.com/album/eggs',
+      'Flora': 'https://treibenderteppichrecords.bandcamp.com/album/time-stops',
+      'Jon McKiel': 'https://jonmckiel.bandcamp.com/album/hex',
+      'Lambs & Wolves': 'https://lambswolves.bandcamp.com/',
+      'Ned Collette': 'https://nedcollette.bandcamp.com/music',
+      'Nicholas Krgovich': 'https://nicholaskrgovich.bandcamp.com/',
+      'Nick Wheeldon': 'https://nickwheeldon.bandcamp.com/',
+      'Sean Pratt': 'https://seanpratt.bandcamp.com/',
+      'St. Moon': 'https://stmoon.bandcamp.com/album/st-moon-ep'
+    };
+
+    const venueLinks = {
+      'Alte Dorfschenke': 'https://www.instagram.com/alte_dorfschaenke_rinkerode/',
+      // 'Arthur Festival (aaltra)': '',
+      // 'Atelier Prozitron': '',
+      'Bis Aufs Messer Records': 'https://bisaufsmesser.com/',
+      'Cafe Kairo': 'https://www.cafekairo.ch/',
+      'Cafe Nun': 'https://nun.cafe/',
+      'Chair De Poule': 'https://www.lechairdepoule.fr/',
+      'Deichdiele': 'https://www.instagram.com/deichdiele/',
+      'Dieselstrasse': 'https://www.dieselstrasse.de/home/',
+      // 'Efesto House': '',
+      'Feikunst Krüger': 'https://www.feinkunst-krueger.de/',
+      'Folk Cafe': 'https://www.facebook.com/FolkCafe1/?locale=de_DE',
+      'Fractal Nights': 'https://www.instagram.com/fractalnightsvienna/',
+      'Gerber 3': 'https://www.gerberstrasse.org/',
+      'Glockenbachwerkstatt': 'https://www.glockenbachwerkstatt.de/',
+      'Grandhotel Cosmopolis': 'https://grandhotel-cosmopolis.org/',
+      'Hafen 2': 'https://hafen2.net/',
+      'Haus der Musik': 'https://www.hausdermusik.com/',
+      'Hiéro': 'https://www.hiero.fr/',
+      'Hirscheneck': 'https://www.hirscheneck.ch/',
+      // 'Horch!': '',
+      // 'Ikii': '',
+      'Jazzhaus': 'https://www.jazzhaus.de/index.html',
+      'Kafi Otmar': 'https://kafiotmar.ch/',
+      'Kreuzkultur': 'https://www.kreuzkultur.ch/',
+      'Kulturfabrik Salzmann': 'https://kulturfabrik-kassel.de/',
+      'La Pointe Lafayette': 'https://www.facebook.com/lapointelafayetteofficielle/',
+      'Le Grillen': 'https://www.legrillen.fr/',
+      'Life Is A Minestrone': 'https://www.instagram.com/life.is.a.minestrone/',
+      'L’Archipel': 'https://www.larchipel.net/',
+      'Ms. Stubnitz': 'https://www.stubnitz.com/',
+      'Noch Besser Leben': 'https://www.nochbesserleben.com/',
+      'Orinoco Books': 'https://orinocobooks.com/',
+      // 'Peniche Adelaide': '',
+      'Pink Flamingo': 'https://www.instagram.com/flamingo_freiburg/',
+      'Poolbar': 'https://www.instagram.com/poolbarfreiburg/',
+      'Portier': 'https://portier.lagerplatz.ch/',
+      // 'Schatulle': '',
+      'Schokoladen': 'https://schokoladen-mitte.de/',
+      'Second Hand Records': 'https://secondhandrecords.de/de/',
+      // 'Secret Venue': '',
+      'Slow Club': 'https://www.slowclub-freiburg.de/',
+      'Super Fourchette': 'https://www.superfourchette.be/',
+      'Tennis Bar': 'https://www.instagram.com/tennisbarberlin/',
+      'The Sound of Bronkow Festival': 'https://www.soundofbronkow.de/',
+      'Trafo': 'https://www.10000volt.de/',
+      'Volksbad': 'https://volxbad.de/',
+      'Vorwerk–Stift': 'https://vorwerkstift.de/de/',
+      // 'Zehntscheuer': ''
+    };
+
+    const escapeRegExp = (value) => value.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+
+    const applyBandLinksToRoster = () => {
+      document.querySelectorAll('.artist-list .artist a[data-band]').forEach((link) => {
+        const bandName = link.dataset.band;
+        const href = bandLinks[bandName];
+
+        if (!href) {
+          return;
+        }
+
+        link.href = href;
+        link.title = 'Listen on Bandcamp';
+      });
+    };
+
+    const linkifyBandNamesInShows = () => {
+      const showSections = Array.from(document.querySelectorAll('section')).filter((section) => {
+        const heading = section.querySelector('h2');
+        return heading && heading.textContent && heading.textContent.includes('Shows');
+      });
+
+      const bandNames = Object.keys(bandLinks).sort((a, b) => b.length - a.length);
+      const bandPattern = new RegExp(`\\b(${bandNames.map(escapeRegExp).join('|')})\\b`, 'g');
+
+      showSections.forEach((section) => {
+        section.querySelectorAll('li').forEach((item) => {
+          item.innerHTML = item.innerHTML.replace(bandPattern, (match) => {
+            const href = bandLinks[match];
+            if (!href) {
+              return match;
+            }
+            return `<a class="show-band-link" href="${href}" target="_blank" rel="noopener noreferrer" title="Listen on Bandcamp">${match}</a>`;
+          });
+        });
+      });
+    };
+
+    const linkifyVenueNamesInShows = () => {
+      const showSections = Array.from(document.querySelectorAll('section')).filter((section) => {
+        const heading = section.querySelector('h2');
+        return heading && heading.textContent && heading.textContent.includes('Shows');
+      });
+
+      const venueNames = Object.keys(venueLinks).sort((a, b) => b.length - a.length);
+      const venuePattern = new RegExp(`\\b(${venueNames.map(escapeRegExp).join('|')})\\b`, 'g');
+
+      showSections.forEach((section) => {
+        section.querySelectorAll('li').forEach((item) => {
+          item.innerHTML = item.innerHTML.replace(venuePattern, (match) => {
+            const href = venueLinks[match];
+            if (!href) {
+              return match;
+            }
+            return `<a class="show-venue-link" href="${href}" target="_blank" rel="noopener noreferrer" title="Visit Venue">${match}</a>`;
+          });
+        });
+      });
+    };
+
+    applyBandLinksToRoster();
+    linkifyVenueNamesInShows();
+    linkifyBandNamesInShows();
+
     const promoImages = document.querySelectorAll('.regional-promo .promo-img');
     const lightbox = document.getElementById('posterLightbox');
+    const lightboxImageLink = document.getElementById('lightboxImageLink');
     const lightboxImage = document.getElementById('lightboxImage');
     const lightboxClose = document.getElementById('lightboxClose');
+    const startupPosterSrc = 'images/2026_srf_poster.jpg';
+    const startupPosterAlt = 'Poster Strange Rituals Festival';
+    const startupPosterTicketLink = 'https://www.dieselstrasse.de/kalenderdaten/detail/strange-rituals-festival-0711/';
+
+    const openLightboxWithImage = (src, alt, options = {}) => {
+      lightboxImage.src = src;
+      lightboxImage.alt = alt;
+
+      if (options.link) {
+        lightboxImageLink.href = options.link;
+        lightboxImageLink.title = options.linkTitle || '';
+        lightboxImageLink.setAttribute('aria-label', options.linkTitle || 'Open link');
+        lightboxImageLink.classList.add('is-ticket-link');
+      } else {
+        lightboxImageLink.removeAttribute('href');
+        lightboxImageLink.removeAttribute('title');
+        lightboxImageLink.removeAttribute('aria-label');
+        lightboxImageLink.classList.remove('is-ticket-link');
+      }
+
+      lightbox.classList.add('is-open');
+      lightbox.setAttribute('aria-hidden', 'false');
+    };
+
+    const showStartupOverlay = () => {
+      openLightboxWithImage(startupPosterSrc, startupPosterAlt, {
+        link: startupPosterTicketLink,
+        linkTitle: 'Get tickets'
+      });
+    };
 
     const closeLightbox = () => {
       lightbox.classList.remove('is-open');
       lightbox.setAttribute('aria-hidden', 'true');
       lightboxImage.src = '';
+      lightboxImageLink.removeAttribute('href');
+      lightboxImageLink.removeAttribute('title');
+      lightboxImageLink.removeAttribute('aria-label');
+      lightboxImageLink.classList.remove('is-ticket-link');
     };
 
     promoImages.forEach((img) => {
@@ -356,10 +533,7 @@
       img.setAttribute('aria-label', `Open poster preview: ${img.alt}`);
 
       const openLightbox = () => {
-        lightboxImage.src = img.src;
-        lightboxImage.alt = img.alt;
-        lightbox.classList.add('is-open');
-        lightbox.setAttribute('aria-hidden', 'false');
+        openLightboxWithImage(img.src, img.alt);
       };
 
       img.addEventListener('click', openLightbox);
@@ -384,6 +558,8 @@
         closeLightbox();
       }
     });
+
+    setTimeout(showStartupOverlay, 300);
   </script>
 </body>
 

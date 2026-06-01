@@ -65,6 +65,15 @@ ul li {
     margin-bottom: 0.6em;
 }
 
+.show-band-link {
+    text-decoration: none;
+}
+
+.show-band-link:hover,
+.show-band-link:focus-visible {
+    text-decoration: none;
+}
+
 /* Navigation */
 nav ul {
     list-style: none;
@@ -155,6 +164,18 @@ h4 {
     font-size: 1em;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
 .sr-seo {
     position: absolute;
     left: -9999px;
@@ -212,16 +233,30 @@ section {
 .lightbox {
     position: fixed;
     inset: 0;
-    background: rgba(0, 0, 0, 0.82);
-    display: none;
+    background: rgba(0, 0, 0, 0.78);
+    display: flex;
     align-items: center;
     justify-content: center;
     z-index: 9999;
     padding: 20px;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity 240ms ease, visibility 240ms ease;
 }
 
 .lightbox.is-open {
-    display: flex;
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+}
+
+.lightbox-image-link {
+    display: inline-flex;
+}
+
+.lightbox-image-link.is-ticket-link {
+    cursor: pointer;
 }
 
 .lightbox img {
@@ -230,6 +265,14 @@ section {
     width: auto;
     height: auto;
     box-shadow: 0 10px 35px rgba(0, 0, 0, 0.45);
+    opacity: 0;
+    transform: translateY(8px) scale(0.99);
+    transition: opacity 280ms ease, transform 280ms ease;
+}
+
+.lightbox.is-open img {
+    opacity: 1;
+    transform: translateY(0) scale(1);
 }
 
 .lightbox-close {
